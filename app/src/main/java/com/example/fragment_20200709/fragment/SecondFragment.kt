@@ -24,7 +24,11 @@ class SecondFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
 
         toastBtn.setOnClickListener {
+            //this
             Toast.makeText(activity,"버튼 이벤트 입니다.",Toast.LENGTH_SHORT).show()
+
+
+
         }
     }
 
